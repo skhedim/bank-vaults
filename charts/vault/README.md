@@ -120,7 +120,7 @@ The following tables lists the configurable parameters of the vault chart and th
 |-------------------------|-------------------------------------|-----------------------------------------------------|
 | `image.pullPolicy`      | Container pull policy               | `IfNotPresent`                                      |
 | `image.repository`      | Container image to use              | `vault`                                             |
-| `image.tag`             | Container image tag to deploy       | `1.0.3`                                             |
+| `image.tag`             | Container image tag to deploy       | `1.2.2`                                             |
 | `vault.customSecrets`   | Custom secrets available to Vault   | `[]`                                                |
 | `vault.envSecrets`      | Custom secrets available to Vault as env vars | `[]`                                    |
 | `vault.config`          | Vault configuration                 | No default backend                                  |
